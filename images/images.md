@@ -44,4 +44,6 @@ Avoid including non-image files (e.g., PDFs, Word docs, ZIPs) in this folder.
 
 From your HTML file, reference images with **relative paths**:
 ```html
-<img src="images/photo.jpg" alt="Sample photo">
+<img src="![alt text](image.png)" alt="Chemistry">
+<img src="![alt text](image-1.png)" alt="Travel">
+<img src="![](image-2.png)" alt="Lord of the Rings">
