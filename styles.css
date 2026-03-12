@@ -42,3 +42,9 @@ h3{
     border-right: 3xp double white; 
     font-family: 'Times New Roman', Times, serif:
 }
+
+img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
