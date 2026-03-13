@@ -4,9 +4,11 @@ body{
     font-family: 'Times New Roman', Times, serif
 }
 
-
-
-
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
 
 h1{
     font-size: 1.25em;
@@ -15,8 +17,8 @@ h1{
     width: 800px;
     margin: 0 auto;
     padding: 30px;
-    border-left: 3px double white;
-    border-right: 3xp double white; 
+    border: 3px solid #a19258;
+    border-radius: 10px;
     font-family: 'Times New Roman', Times, serif
 }
 h2{
@@ -27,8 +29,8 @@ h2{
     width: 800px;
     margin: 0 auto;
     padding: 30px;
-    border-left: 3px double white;
-    border-right: 3xp double white; 
+    border: 3px solid #a19258;
+    border-radius: 10px;
     font-family: 'Times New Roman', Times, serif
 }
 h3{
@@ -38,10 +40,17 @@ h3{
     width: 800px;
     margin: 20px auto 10px auto;
     padding: 15px;
-    border-left: 3px double rgb(255, 255, 255);
-    border-right: 3px double white;
+    border: 3px solid #a19258;
+    border-radius: 10px;
     font-family: 'Times New Roman', Times, serif;
     clear: both
+}
+
+p {
+    border: 3px solid #a19258;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
 }
 
 img{
@@ -50,6 +59,7 @@ img{
     object-fit: cover;
     float: left;
     border: 5px solid #a19258;
+    border-radius: 10px;
     margin: 10px 20px 10px 0;
     clear: none
 }
