@@ -1,6 +1,6 @@
 body{
-    background-color:rgb(97, 221, 97);
-    color: white;
+    background-color:rgb(62, 146, 236);
+    color: rgb(0, 0, 0);
     font-family: 'Times New Roman', Times, serif
 }
 
@@ -11,7 +11,7 @@ body{
 h1{
     font-size: 1.25em;
     text-align: left;
-    background-color: #0ba0df;
+    background-color: #ffffff;
     width: 800px;
     margin: 0 auto;
     padding: 30px;
@@ -23,7 +23,7 @@ h2{
     display: block;
     font-size: 1.25em;
     text-align: left;
-    background-color: #0ba0df;
+    background-color: #ffffff;
     width: 800px;
     margin: 0 auto;
     padding: 30px;
@@ -34,11 +34,11 @@ h2{
 h3{
     font-size: 1.25em;
     text-align: left;
-    background-color: #0ba0df;
+    background-color: #ffffff;
     width: 800px;
     margin: 0 auto;
     padding: 30px;
-    border-left: 3px double white;
+    border-left: 3px double rgb(255, 255, 255);
     border-right: 3xp double white; 
     font-family: 'Times New Roman', Times, serif
 }
@@ -46,5 +46,11 @@ h3{
 img{
     width: 300px;
     height: 300px;
-    object-fit: cover
+    object-fit: cover;
+    float: left;
+    border: 5px solid #a19258;
+    margin: 10px;
+}
+    margin: 20px; 
+    border-left: 3xp rgb(32, 10, 226);  
 }
