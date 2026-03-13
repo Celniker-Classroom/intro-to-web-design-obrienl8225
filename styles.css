@@ -36,11 +36,12 @@ h3{
     text-align: left;
     background-color: #ffffff;
     width: 800px;
-    margin: 0 auto;
-    padding: 30px;
+    margin: 20px auto 10px auto;
+    padding: 15px;
     border-left: 3px double rgb(255, 255, 255);
-    border-right: 3xp double white; 
-    font-family: 'Times New Roman', Times, serif
+    border-right: 3px double white;
+    font-family: 'Times New Roman', Times, serif;
+    clear: both;
 }
 
 img{
@@ -49,8 +50,6 @@ img{
     object-fit: cover;
     float: left;
     border: 5px solid #a19258;
-    margin: 10px;
-}
-    margin: 20px; 
-    border-left: 3xp rgb(32, 10, 226);  
+    margin: 10px 20px 10px 0;
+    clear: none;
 }
