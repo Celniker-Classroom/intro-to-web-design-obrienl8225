@@ -118,4 +118,11 @@ a:hover {
     font-size: 1.1rem;
     padding: 12px;
   }
+
 }
+.left.img {    float: left;
+    margin: 0 10px 10px 0;
+    width: 100%; 
+    height: auto;
+}
+
