@@ -154,4 +154,12 @@ a:hover {
     opacity: 0;
     transform: translateY(20px);
   }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slide-fade-in {
+  animation: slide-fade-in 1s ease-out forwards;
 }
