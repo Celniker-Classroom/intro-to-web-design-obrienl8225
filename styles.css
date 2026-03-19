@@ -166,6 +166,10 @@ a:hover {
   animation: slide-fade-in 0.8s ease-out forwards;
 }
 
+html {
+  overflow-y: scroll;
+}
+
 body {
   scrollbar-width: thin;
   scrollbar-color: #ffc107 #1f66d6;
